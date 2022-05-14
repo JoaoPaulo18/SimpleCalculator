@@ -37,6 +37,7 @@ body{
 }
 .preview{
   font-size: 1.8rem;
+  text-align: right;
 }
 .box{
   width: 100%;
