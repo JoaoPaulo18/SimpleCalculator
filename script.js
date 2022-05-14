@@ -34,7 +34,8 @@ function DeleteSome(){
     actualAcount = acount1 + type + acount2;
     show.innerHTML = actualAcount;
   }else{
-    acount1 = acount1.replace(/\d$/g,'');
+    acount1 = `${acount1}`;
+    acount1 = `${acount1.replace(/\d$/g,'')}`;
     actualAcount = acount1;
     show.innerHTML = actualAcount;
     previewShow.innerHTML = acount1;
